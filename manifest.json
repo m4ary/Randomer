@@ -1,0 +1,23 @@
+{
+  "name": "Randomer",
+  "description" : "generator to be Randomer in websites",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "Main.html",
+    "default_icon": "icon/logo_transparent.png"
+  },
+  "permissions": [
+  "https://*.reddit.com/",
+  "https://*.googleapis.com/"
+],
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  }
+}
