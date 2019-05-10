@@ -1,0 +1,12 @@
+#main {
+  width: 200px;
+  border: 0px dotted black;
+  align-self: center;
+}
+h1 {
+  margin: 0;
+    display: inline-block;
+}
+button {
+  float: right;
+}

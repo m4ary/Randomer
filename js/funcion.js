@@ -14,6 +14,17 @@ console.log(usernames.length);
 });
 
 
+document.getElementById("copyButton").addEventListener("click" , function copyUsername(){
+  var copyText = document.getElementById("output").innerHTML;
+  var dummy = document.createElement("input");
+  document.body.appendChild(dummy);
+  dummy.setAttribute('value', copyText)
+  dummy.select();
+  document.execCommand("copy");
+  document.body.removeChild(dummy);
+});
+
+
 
 function generate_username_from_API()
 {
