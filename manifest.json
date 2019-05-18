@@ -1,7 +1,7 @@
 {
   "name": "Randomer",
-  "description" : "generator to be Randomer in websites",
-  "version": "1.0",
+  "description" : "username generator based on reddit signup page suggestions",
+  "version": "1.0.1",
   "browser_action": {
     "default_popup": "Main.html",
     "default_icon": "img/logo.png"
@@ -12,8 +12,6 @@
           "128": "img/logo.png"
         },
   "permissions": [
-  "https://*.reddit.com/",
-  "https://*.googleapis.com/"
 ],
   "manifest_version": 2,
   "commands": {
